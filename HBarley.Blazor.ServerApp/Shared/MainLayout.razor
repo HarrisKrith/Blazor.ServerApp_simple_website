@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        <div class="top-row px-5">
+            <a href="#" class="fa fa-linkedin" type="button" onclick="parent.open('https://www.linkedin.com/in/harris-kritharis/')"></a>
+            <a href="#" class="fa fa-github" type="button" onclick="parent.open('https://github.com/HarrisKrith')"></a>
+            <a href="https://www.google.com/" target="_blank">About</a>
+        </div>
+
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
